@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFAQ-OS v7.0</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>AFAQ-OS v7.0</h1>
+        <nav>
+            <a href="/">Dashboard</a>
+            <a href="/api/health">Health</a>
+            <a href="/api/modules">Modules</a>
+        </nav>
+    </header>
+    <main>
+        <section class="modules-grid">
+            {% for mod in modules %}
+            <div class="module-card">
+                <span class="module-icon">{{ mod.icon }}</span>
+                <h3>{{ mod.name }}</h3>
+                <p>{{ mod.description }}</p>
+                <span class="module-status {{ mod.status.value }}">{{ mod.status.value }}</span>
+            </div>
+            {% endfor %}
+        </section>
+    </main>
+</body>
+</html>
