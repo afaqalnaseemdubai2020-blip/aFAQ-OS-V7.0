@@ -1,0 +1,203 @@
+[
+  {
+    "id": "001",
+    "category": "greeting",
+    "examples": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "مرحبا",
+      "السلام عليكم",
+      "هلا",
+      "أهلا"
+    ],
+    "response_en": "Hello! Welcome to AFAQ Beauty! How can I help you today?",
+    "response_ar": "أهلاً وسهلاً! مرحباً بك في أفاقة بيوتي! كيف أقدر أساعدك؟",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "002",
+    "category": "product_inquiry",
+    "examples": [
+      "what products",
+      "show me products",
+      "tell me about babyliss",
+      "ايش عندكم",
+      "وش المنتجات",
+      "منتجات"
+    ],
+    "response_en": "We have amazing hair tools! Best sellers: Babyliss Pro, Wahl Senior, Dyson Supersonic, GHD Platinum. Want details on any?",
+    "response_ar": "عندنا أدوات شعر ممتازة! الأكثر مبيعاً: بابيليس برو، واهل سينيور، دايسون، GHD. تبي تفاصيل؟",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "003",
+    "category": "pricing",
+    "examples": [
+      "how much",
+      "price",
+      "كم السعر",
+      "كم يكلف",
+      "price list"
+    ],
+    "response_en": "What product are you interested in? I'll check the best price and any active offers for you!",
+    "response_ar": "أي منتج تبي تعرف سعره؟ بشيك لك على أفضل سعر وعروض!",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "004",
+    "category": "order_status",
+    "examples": [
+      "where is my order",
+      "track order",
+      "when will it arrive",
+      "وين طلبيتي",
+      "متى توصل",
+      "تتبع"
+    ],
+    "response_en": "I'll check your order status! Can you share your order number? It starts with #10xx",
+    "response_ar": "بشيك على حالة طلبك! تقدر تشاركني رقم الطلب؟ يبدأ بـ #10xx",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "005",
+    "category": "complaint",
+    "examples": [
+      "problem",
+      "broken",
+      "not working",
+      "defective",
+      "مشكلة",
+      "خربان",
+      "مايشتغل",
+      "عيب"
+    ],
+    "response_en": "Sorry to hear that! Let me connect you with our support team right away.",
+    "response_ar": "أعتذر عن هذا! راح أوصلك بفريق الدعم الحين.",
+    "language": "auto",
+    "should_escalate": true
+  },
+  {
+    "id": "006",
+    "category": "return_refund",
+    "examples": [
+      "return",
+      "refund",
+      "exchange",
+      "إرجاع",
+      "استرداد",
+      "تبديل",
+      "ارجع"
+    ],
+    "response_en": "I'll connect you with our returns team for a smooth process.",
+    "response_ar": "راح أوصلك بفريق المرتجعات عشان نسهل الموضوع.",
+    "language": "auto",
+    "should_escalate": true
+  },
+  {
+    "id": "007",
+    "category": "shipping",
+    "examples": [
+      "shipping",
+      "delivery",
+      "deliver",
+      "شحن",
+      "توصيل",
+      "كم تكلفة الشحن"
+    ],
+    "response_en": "We deliver across UAE! Standard 2-3 days (FREE over 200 AED), Express next day (25 AED), Same day Dubai (50 AED).",
+    "response_ar": "نوصل في كل الإمارات! عادي 2-3 أيام مجاني فوق 200 درهم، سريع بكرة 25 درهم، نفس اليوم دبي 50 درهم.",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "008",
+    "category": "payment",
+    "examples": [
+      "payment",
+      "how to pay",
+      "cash on delivery",
+      "طرق الدفع",
+      "كيف أدفع",
+      "الدفع"
+    ],
+    "response_en": "We accept: Credit/Debit Card, Cash on Delivery, Apple Pay, Bank Transfer, Tabby (Pay in 4).",
+    "response_ar": "نقبل: بطاقة ائتمان، الدفع عند الاستلام، Apple Pay، تحويل بنكي، تابي.",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "009",
+    "category": "store_info",
+    "examples": [
+      "location",
+      "where are you",
+      "working hours",
+      "contact",
+      "وين موقعكم",
+      "ساعات",
+      "تواصل"
+    ],
+    "response_en": "AFAQ Beauty - Dubai\nSun-Thu 9AM-10PM, Fri-Sat 10AM-11PM\nWhatsApp: +971-XXX-XXXX",
+    "response_ar": "أفاقة بيوتي - دبي\nالأحد-الخميس 9ص-10م، الجمعة-السبت 10ص-11م",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "010",
+    "category": "promotion",
+    "examples": [
+      "offers",
+      "discount",
+      "sale",
+      "coupon",
+      "عروض",
+      "خصومات",
+      "تخفيضات"
+    ],
+    "response_en": "Current offers: 15% off Babyliss (code BABYLISS15), Buy 2 Get 1 Free on hair care, Free shipping over 200 AED!",
+    "response_ar": "العروض: خصم 15% بابيليس كود BABYLISS15، اشتري 2 و1 مجاني، شحن مجاني فوق 200 درهم!",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "011",
+    "category": "goodbye",
+    "examples": [
+      "bye",
+      "goodbye",
+      "thanks",
+      "thank you",
+      "مع السلامة",
+      "شكرا",
+      "يسلموا",
+      "خلاص"
+    ],
+    "response_en": "Thank you! Feel free to message anytime. Have a great day!",
+    "response_ar": "شكراً لك! لا تتردد تراسلنا أي وقت. يومك سعيد!",
+    "language": "auto",
+    "should_escalate": false
+  },
+  {
+    "id": "012",
+    "category": "wholesale",
+    "examples": [
+      "wholesale",
+      "bulk",
+      "salon",
+      "جملة",
+      "كمية",
+      "صالون",
+      "تجاري"
+    ],
+    "response_en": "We offer 20-30% off for bulk orders with a dedicated account manager! Let me connect you with our B2B team.",
+    "response_ar": "نقدم خصم 20-30% للطلبات الكبيرة مع مدير حساب! خلني أوصلك بفريق B2B.",
+    "language": "auto",
+    "should_escalate": true
+  }
+]

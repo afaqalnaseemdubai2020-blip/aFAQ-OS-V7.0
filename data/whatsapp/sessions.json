@@ -1,0 +1,67 @@
+[
+  {
+    "session_id": "f2dcc843",
+    "phone": "971501111111",
+    "customer_name": "أحمد",
+    "status": "ai_active",
+    "assigned_agent": null,
+    "message_count": 1,
+    "ai_confidence_avg": 0.0,
+    "started_at": "2026-03-27T10:47:23.312623",
+    "last_activity": "2026-03-27T10:47:23.312633",
+    "escalated_at": null,
+    "escalation_reason": null
+  },
+  {
+    "session_id": "04e08d67",
+    "phone": "971505555555",
+    "customer_name": "خالد",
+    "status": "ai_active",
+    "assigned_agent": null,
+    "message_count": 1,
+    "ai_confidence_avg": 0.0,
+    "started_at": "2026-03-27T10:47:50.081668",
+    "last_activity": "2026-03-27T10:47:50.081678",
+    "escalated_at": null,
+    "escalation_reason": null
+  },
+  {
+    "session_id": "10ebec4a",
+    "phone": "971506666666",
+    "customer_name": "Mike",
+    "status": "ai_active",
+    "assigned_agent": null,
+    "message_count": 1,
+    "ai_confidence_avg": 0.0,
+    "started_at": "2026-03-27T10:47:50.215030",
+    "last_activity": "2026-03-27T10:47:50.215041",
+    "escalated_at": null,
+    "escalation_reason": null
+  },
+  {
+    "session_id": "5a8c0654",
+    "phone": "971507777777",
+    "customer_name": "فاطمة",
+    "status": "escalated",
+    "assigned_agent": null,
+    "message_count": 1,
+    "ai_confidence_avg": 0.0,
+    "started_at": "2026-03-27T10:47:50.353437",
+    "last_activity": "2026-03-27T10:47:50.357201",
+    "escalated_at": "2026-03-27T10:47:50.357192",
+    "escalation_reason": "complaint"
+  },
+  {
+    "session_id": "a0301fc5",
+    "phone": "971508888888",
+    "customer_name": "Ali",
+    "status": "escalated",
+    "assigned_agent": null,
+    "message_count": 1,
+    "ai_confidence_avg": 0.0,
+    "started_at": "2026-03-27T10:47:50.627794",
+    "last_activity": "2026-03-27T10:47:50.637209",
+    "escalated_at": "2026-03-27T10:47:50.637198",
+    "escalation_reason": "payment"
+  }
+]

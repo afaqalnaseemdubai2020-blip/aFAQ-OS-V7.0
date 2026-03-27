@@ -1,0 +1,92 @@
+[
+  {
+    "id": "59a32bd9",
+    "session_id": "f2dcc843",
+    "direction": "inbound",
+    "message": "مرحبا",
+    "sender": "customer",
+    "confidence": 0,
+    "timestamp": "2026-03-27T10:47:23.312947"
+  },
+  {
+    "id": "e38cc005",
+    "session_id": "f2dcc843",
+    "direction": "outbound_ai",
+    "message": "أهلاً وسهلاً! مرحباً بك في أفاقة بيوتي! كيف أقدر أساعدك؟",
+    "sender": "ai",
+    "confidence": 0.95,
+    "timestamp": "2026-03-27T10:47:23.314512"
+  },
+  {
+    "id": "ad6503ef",
+    "session_id": "04e08d67",
+    "direction": "inbound",
+    "message": "ايش عندكم من منتجات؟",
+    "sender": "customer",
+    "confidence": 0,
+    "timestamp": "2026-03-27T10:47:50.082344"
+  },
+  {
+    "id": "163311b7",
+    "session_id": "04e08d67",
+    "direction": "outbound_ai",
+    "message": "عندنا أدوات شعر ممتازة! الأكثر مبيعاً: بابيليس برو، واهل سينيور، دايسون، GHD. تبي تفاصيل؟",
+    "sender": "ai",
+    "confidence": 0.95,
+    "timestamp": "2026-03-27T10:47:50.083163"
+  },
+  {
+    "id": "4d427b9b",
+    "session_id": "10ebec4a",
+    "direction": "inbound",
+    "message": "How much is shipping?",
+    "sender": "customer",
+    "confidence": 0,
+    "timestamp": "2026-03-27T10:47:50.218555"
+  },
+  {
+    "id": "29fac10b",
+    "session_id": "10ebec4a",
+    "direction": "outbound_ai",
+    "message": "Hello! Welcome to AFAQ Beauty! How can I help you today?",
+    "sender": "ai",
+    "confidence": 0.95,
+    "timestamp": "2026-03-27T10:47:50.219177"
+  },
+  {
+    "id": "2f4927a2",
+    "session_id": "5a8c0654",
+    "direction": "inbound",
+    "message": "المنتج خربان مايشتغل",
+    "sender": "customer",
+    "confidence": 0,
+    "timestamp": "2026-03-27T10:47:50.353861"
+  },
+  {
+    "id": "9bc9a095",
+    "session_id": "5a8c0654",
+    "direction": "outbound_ai",
+    "message": "أعتذر عن هذا! راح أوصلك بفريق الدعم الحين.",
+    "sender": "ai",
+    "confidence": 0.95,
+    "timestamp": "2026-03-27T10:47:50.358905"
+  },
+  {
+    "id": "a38fb146",
+    "session_id": "a0301fc5",
+    "direction": "inbound",
+    "message": "How can I pay?",
+    "sender": "customer",
+    "confidence": 0,
+    "timestamp": "2026-03-27T10:47:50.630252"
+  },
+  {
+    "id": "361a845d",
+    "session_id": "a0301fc5",
+    "direction": "outbound_ai",
+    "message": "We accept: Credit/Debit Card, Cash on Delivery, Apple Pay, Bank Transfer, Tabby (Pay in 4).",
+    "sender": "ai",
+    "confidence": 0.5,
+    "timestamp": "2026-03-27T10:47:50.638256"
+  }
+]

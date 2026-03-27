@@ -14,15 +14,18 @@ templates = Jinja2Templates(directory="app/templates")
 os.makedirs("data/agents", exist_ok=True)
 os.makedirs("data/wiki", exist_ok=True)
 os.makedirs("data/shopify", exist_ok=True)
+os.makedirs("data/whatsapp", exist_ok=True)
 
 # ── Routers ────────────────────────────
 from app.modules.agents.router import agents_router
 from app.modules.wiki.router import wiki_router
 from app.modules.shopify.router import shopify_router
+from app.modules.whatsapp.router import whatsapp_router
 
 app.include_router(agents_router)
 app.include_router(wiki_router)
 app.include_router(shopify_router)
+app.include_router(whatsapp_router)
 
 # ── Pages ──────────────────────────────
 @app.get("/", response_class=HTMLResponse)
