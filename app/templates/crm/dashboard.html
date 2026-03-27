@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}CRM Dashboard{% endblock %}
+{% block content %}
+<div class="card">
+    <h2>📊 CRM Dashboard</h2>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0">
+        <div style="background:#1a1a2e;padding:20px;border-radius:8px;text-align:center">
+            <h3>{{ contact_count }}</h3><p>Contacts</p>
+        </div>
+        <div style="background:#1a1a2e;padding:20px;border-radius:8px;text-align:center">
+            <h3>{{ deals|length }}</h3><p>Deals</p>
+        </div>
+        <div style="background:#1a1a2e;padding:20px;border-radius:8px;text-align:center">
+            <h3>${{ "%.2f"|format(total_pipeline) }}</h3><p>Pipeline</p>
+        </div>
+    </div>
+    <a href="/crm/contacts" style="color:#00d4ff">View Contacts →</a>
+</div>
+{% endblock %}

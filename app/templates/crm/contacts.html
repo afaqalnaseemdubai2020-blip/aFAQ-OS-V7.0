@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Contacts{% endblock %}
+{% block content %}
+<div class="card">
+    <h2>👥 Contacts</h2>
+    <a href="/crm/dashboard" style="color:#00d4ff">← Back to Dashboard</a>
+    <table style="width:100%;margin-top:16px;border-collapse:collapse">
+        <tr style="border-bottom:1px solid #333">
+            <th style="text-align:left;padding:8px">Name</th>
+            <th style="text-align:left;padding:8px">Email</th>
+            <th style="text-align:left;padding:8px">Company</th>
+            <th style="text-align:left;padding:8px">Status</th>
+        </tr>
+        {% for c in contacts %}
+        <tr style="border-bottom:1px solid #222">
+            <td style="padding:8px">{{ c.name }}</td>
+            <td style="padding:8px">{{ c.email }}</td>
+            <td style="padding:8px">{{ c.company }}</td>
+            <td style="padding:8px">{{ c.status.value }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

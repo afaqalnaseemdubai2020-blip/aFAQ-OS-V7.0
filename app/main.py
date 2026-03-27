@@ -14,6 +14,8 @@ from app.core.middleware.audit import AuditMiddleware
 from app.core.module_registry import module_registry
 from app.core.infrastructure.module_loader import discover_modules
 from app.core.infrastructure.health_check import get_health_status
+from app.modules.wiki import get_router as get_wiki_router
+from app.modules.agents import get_router as get_agents_router
 
 logging.basicConfig(level=getattr(logging, settings.LOG_LEVEL), format=settings.LOG_FORMAT)
 logger = logging.getLogger(__name__)
@@ -40,7 +42,12 @@ async def health():
 
 @app.get("/api/modules")
 async def list_modules():
-    return {"active": [m.to_dict() for m in module_registry.get_active_modules()], "coming_soon": [m.to_dict() for m in module_registry.get_coming_soon_modules()]}
+    return {"active": [m.to_dict() for m in module_registry.get_active_modules()],
+            "coming_soon": [m.to_dict() for m in module_registry.get_coming_soon_modules()]}
+
+# Register module routers
+app.include_router(get_wiki_router())
+app.include_router(get_agents_router())
 
 @app.get("/api/features")
 async def list_features():

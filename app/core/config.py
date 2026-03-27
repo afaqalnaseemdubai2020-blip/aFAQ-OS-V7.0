@@ -31,6 +31,9 @@ class Settings(BaseSettings):
 
     FEATURE_FLAGS: str = "{}"
 
+    LOG_LEVEL: str = "INFO"
+    LOG_FORMAT: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
     GRACE_WINDOW_MINUTES: int = 15
     INACTIVITY_THRESHOLD_MINUTES: int = 15
     CHECK_IN_PING_INTERVAL_MINUTES: int = 10
